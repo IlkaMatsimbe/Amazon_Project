@@ -1,0 +1,16 @@
+CTRL + F - Comando pra procurar o codigo
+
+CTRL + TAB - move o codigo a esquerda
+
+TAB - move o codigo a direita
+
+
+* Quando se tem muitos produtos o aconselhavel e 
+adicionar dentro de um aray, porque um array representa uma lista. 
+
+*E quando o produto tem muitos dados, 
+o melhor e usar um object, pois ele agrupa multiplos valores.
+
+
+11:36:55
+

@@ -11,6 +11,9 @@ adicionar dentro de um aray, porque um array representa uma lista.
 *E quando o produto tem muitos dados, 
 o melhor e usar um object, pois ele agrupa multiplos valores.
 
+Data Attribute -  e um atributo html que permite atacar informacoes para um
+elemento html. 
+Syntax: nome + valor = data-product-name="${product.name}"
 
 11:36:55
 

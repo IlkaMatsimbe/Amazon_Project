@@ -47,14 +47,43 @@ products.forEach((product) => {
         Added
       </div>
 
-      <button class="add-to-cart-button button-primary">
+      //primeiro atacamos o productName para o botao usando o data attribute. 
+      <button class="add-to-cart-button button-primary js-add-to-cart"
+       data-product-id="${product.id}">
         Add to Cart
       </button>
     </div>
 `;
-
 });
 
-console.log(productsHTML);
+
 
 document.querySelector('.js-products-grid').innerHTML = productsHTML;
+
+document.querySelectorAll('.js-add-to-cart').forEach((button) => {
+  button.addEventListener('click', (event) => {
+
+    //Depois do attack, quando cliclamos o botao, ele adiciona o produto ao carrrinho.
+    const productId = button.dataset.productId;
+
+
+    let matchingItem;
+
+
+    cart.forEach((item) => {
+      if (productId === item.productId) {
+        matchingItem = item;
+      }
+    });
+
+    if (matchingItem) {
+      matchingItem.quantity += 1;
+    } else {
+      cart.push({
+        productId: productId,
+        quantity: 1
+      });
+    }
+    console.log(cart);
+  });
+});

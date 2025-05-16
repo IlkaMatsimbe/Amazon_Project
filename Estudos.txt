@@ -15,5 +15,13 @@ Data Attribute -  e um atributo html que permite atacar informacoes para um
 elemento html. 
 Syntax: nome + valor = data-product-name="${product.name}"
 
-12:19:50
+Modulos
+* Contem uma variavel dentro de um ficheiro, entao se houver outra variavel com
+mesmo nome, nao  ira sofrer nenhum conflito de nomenclatura.
+Existem 3 passos pra adicionar: 
+-  Add o type="module" src="./scripts/amazon.js"></script>
+- Exportar
+- Importar
+
+12:28:02
 

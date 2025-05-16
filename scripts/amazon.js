@@ -1,3 +1,6 @@
+//Foi importado o cart de ../data/cart.js para ser usado aqui.
+import {cart} from '../data/cart.js';
+
 let productsHTML = '';
 
 
@@ -47,8 +50,7 @@ products.forEach((product) => {
         Added
       </div>
 
-      //primeiro atacamos o productName para o botao usando o data attribute. 
-      <button class="add-to-cart-button button-primary js-add-to-cart"
+\      <button class="add-to-cart-button button-primary js-add-to-cart"
        data-product-id="${product.id}">
         Add to Cart
       </button>
@@ -63,6 +65,7 @@ document.querySelector('.js-products-grid').innerHTML = productsHTML;
 document.querySelectorAll('.js-add-to-cart').forEach((button) => {
   button.addEventListener('click', (event) => {
 
+     //primeiro atacamos o productName para o botao usando o data attribute. 
     //Depois do attack, quando cliclamos o botao, ele adiciona o produto ao carrrinho.
     const productId = button.dataset.productId;
 
@@ -92,5 +95,6 @@ document.querySelectorAll('.js-add-to-cart').forEach((button) => {
     });
 
     document.querySelector('.js-cart-quantity').innerHTML = carQuantity;
+
   });
 });

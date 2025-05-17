@@ -1,5 +1,7 @@
 //Foi importado o cart de ../data/cart.js para ser usado aqui.
-import {cart} from '../data/cart.js';
+import {cart, addToCart} from '../data/cart.js';
+import {products} from '../data/products.js';
+
 
 let productsHTML = '';
 
@@ -62,39 +64,27 @@ products.forEach((product) => {
 
 document.querySelector('.js-products-grid').innerHTML = productsHTML;
 
+function updateCartQuantity() {
+
+    let carQuantity = 0;
+    
+    cart.forEach((cartitem) => {
+      carQuantity += cartitem.quantity;
+    });
+
+    document.querySelector('.js-cart-quantity').innerHTML = carQuantity;
+}
+
+
+
 document.querySelectorAll('.js-add-to-cart').forEach((button) => {
   button.addEventListener('click', (event) => {
 
      //primeiro atacamos o productName para o botao usando o data attribute. 
     //Depois do attack, quando cliclamos o botao, ele adiciona o produto ao carrrinho.
     const productId = button.dataset.productId;
+    addToCart(productId);
+    updateCartQuantity();
 
-
-    let matchingItem;
-
-
-    cart.forEach((item) => {
-      if (productId === item.productId) {
-        matchingItem = item;
-      }
-    });
-
-    if (matchingItem) {
-      matchingItem.quantity += 1;
-    } else {
-      cart.push({
-        productId: productId,
-        quantity: 1
       });
-    }
-
-    let carQuantity = 0;
-    
-    cart.forEach((item) => {
-      carQuantity += item.quantity;
-    });
-
-    document.querySelector('.js-cart-quantity').innerHTML = carQuantity;
-
-  });
 });

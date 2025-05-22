@@ -5,6 +5,13 @@ CTRL + TAB - move o codigo a esquerda
 TAB - move o codigo a direita
 
 
+JavaScript
+* Salva os dados
+* Gera o html
+* Faz ele interactivo
+
+
+
 * Quando se tem muitos produtos o aconselhavel e 
 adicionar dentro de um aray, porque um array representa uma lista. 
 
@@ -23,5 +30,5 @@ Existem 3 passos pra adicionar:
 - Exportar
 - Importar
 
-12:50:30
+13:16:26
 

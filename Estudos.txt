@@ -26,9 +26,12 @@ Modulos
 * Contem uma variavel dentro de um ficheiro, entao se houver outra variavel com
 mesmo nome, nao  ira sofrer nenhum conflito de nomenclatura.
 Existem 3 passos pra adicionar: 
--  Add o type="module" src="./scripts/amazon.js"></script>
+- Add o type="module" src="./scripts/amazon.js"></script>
 - Exportar
 - Importar
 
-13:16:26
+
+radio selector - 
+
+13:30:34
 

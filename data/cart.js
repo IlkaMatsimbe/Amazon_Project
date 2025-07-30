@@ -29,13 +29,16 @@ export function addToCart(productId) {
     }
 }
 
- //Para remover um item do carrinho, precisamos criar um novo array, percorer atraves do cart e 
+
+
+ // Para remover um item do carrinho, precisamos criar um novo array, percorer atraves do cart e 
  // adicionar cada produto para o novo array, exceto o que queremos remover.
-export function removeFromCart(productId) {
+export function removeFromCart (productId) {
   const newCart = [];
+  
   cart.forEach((cartItem) => {
     if (cartItem.productId !== productId) {
-      newCart.push(cartItem);
+      newCart.push(cartItem);`  `
     }
   });
 

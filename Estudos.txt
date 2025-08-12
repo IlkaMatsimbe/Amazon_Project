@@ -34,5 +34,14 @@ Existem 3 passos pra adicionar:
 
 radio selector - 
 
-13:54:40
+External Library - e um codigo que esta fora do nosso 
+projecto e pode correr atraves da internet. Ele permite percorrer um codigo
+ fora do projecto, dentro do nosso arquivo JS. 
+ Basta colocar a URL dentro de script: "https://unpkg.com/supersimpledev@1.0.1/hello.js"
+  
+ESM (EcmaScript Module) Version - e uma versao da biblioteca que trabalha
+ com o modulos javascript
+
+ Default Export - e outra maneira de esportar coisa atraves de um ficheiro
+14:38:24
 

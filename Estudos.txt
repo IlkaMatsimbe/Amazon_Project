@@ -48,8 +48,9 @@ ESM (EcmaScript Module) Version - e uma versao da biblioteca que trabalha
  shorthand property - 
 
  Model - View - Controller (MVC) - E uma tecnica para atualizar os dados e regenerar todo o HTML.
+ O MVC em vez de atualizar a pagina directamente com o DOM, atualizamos nossos dados e entao regeneramos todo HTML.
  Model: salva e faz a gestao dos dados;
- Views: pega os dados e mostra na pagina;
- Conroller: percorre o codigo quando nos interagimos com a pagina.
-15:00:00
+ Views: pega os dados e mostra na pagina; (gerar o HTML)
+ Controller: percorre o codigo quando nos interagimos com a pagina. (torna interativo)
+15:22:50
 

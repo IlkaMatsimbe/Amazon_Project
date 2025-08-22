@@ -62,7 +62,7 @@ export function removeFromCart (productId) {
   });
 
   cart = newCart;
-
+ 
   saveToStorage();
 
 }
@@ -76,8 +76,7 @@ export function updateDeliveryOption(productId, deliveryOptionId) {
     }
   });
 
-  if (matchingItem) {
     matchingItem.deliveryOptionId = deliveryOptionId;
     saveToStorage();
   }
-}
+

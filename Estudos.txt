@@ -58,6 +58,10 @@ ERROS
  * Sempre que tiver um erro no inspct, tem haver com uma falha  no dado no Local Storage, basta colocar no inspect: localStorage.clear()
  * Se aparecer um erro de object object signfica que salvei alguma coisa directamente dentro do Local Storage 
 
+ Test Framework
+ E uma biblioteca externa que ajuda nos a escrever testes facilmente.
+ Os test frameworks sao: Jasmine
 
-15:34:29
+
+16:01:29
 

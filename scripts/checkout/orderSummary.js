@@ -10,10 +10,6 @@ import {renderPaymentSummary } from "./paymentSummary.js";
 //esta funcao atualiza os dados do carrinho de compras
 //ela percorre o cart e atualiza a quantidade de cada produto, 
 //e também atualiza a opção de entrega selecionada.
-hello();
-const today = dayjs();
-const deliveryDate = today.add(7, 'days');
-console.log(deliveryDate.format('dddd, MMMM D'));
 
 
 export function renderOrderSummary() {
@@ -116,10 +112,7 @@ const dateString = deliveryDate.format('dddd, MMMM D');
     
     }
 
-
-
-
-
+    
     document.querySelector('.js-order-summary').innerHTML = cartSummaryHTML;
 
     document.querySelectorAll('.js-delete-link')

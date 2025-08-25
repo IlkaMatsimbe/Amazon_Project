@@ -52,5 +52,12 @@ ESM (EcmaScript Module) Version - e uma versao da biblioteca que trabalha
  Model: salva e faz a gestao dos dados;
  Views: pega os dados e mostra na pagina; (gerar o HTML)
  Controller: percorre o codigo quando nos interagimos com a pagina. (torna interativo)
-15:30:19
+
+
+ERROS
+ * Sempre que tiver um erro no inspct, tem haver com uma falha  no dado no Local Storage, basta colocar no inspect: localStorage.clear()
+ * Se aparecer um erro de object object signfica que salvei alguma coisa directamente dentro do Local Storage 
+
+
+15:34:29
 

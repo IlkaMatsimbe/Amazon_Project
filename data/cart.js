@@ -1,6 +1,11 @@
 //a variavel cart pode ser usada fora porque ela é exportada.
 export let cart = JSON.parse(localStorage.getItem('cart'));
 
+
+loadFromStorage();
+
+ export function loadFromStorage() {
+  cart = JSON.parse(localStorage.getItem('cart'));
 if (!cart) {
   // Se o cart não existir, inicializamos com um array vazio.
  
@@ -16,6 +21,8 @@ cart = [{
 }];
 
 }
+}
+
  
   
 // Isso é útil para manter o carrinho de compras mesmo após o usuário fechar o navegador, 

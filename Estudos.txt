@@ -66,5 +66,5 @@ Em Jasmine spec = test
 Em Jasmine temos o describe ele cria um grupo de specs
 Mocks - cria uma versao falsa daquilo que queremos retornar
 
-16:37:28
+17:00:28
 

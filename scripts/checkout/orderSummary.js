@@ -32,7 +32,10 @@ const dateString = deliveryDate.format('dddd, MMMM D');
 
 
   cartSummaryHTML += `
-  <div class="cart-item-container js-cart-item-container-${matchingProduct.id}">
+  <div class="cart-item-container 
+  js-cart-item-container
+  
+  js-cart-item-container-${matchingProduct.id}">
   <div class="delivery-date">
     Delivery date: ${dateString}
   </div>
@@ -48,14 +51,16 @@ const dateString = deliveryDate.format('dddd, MMMM D');
       <div class="product-price">
         $${formatCurrency(matchingProduct.priceCents)}
     </div>
-    <div class="product-quantity">
+    <div class="product-quantity
+    js-product-quantity-${matchingProduct.id}">
       <span>
         Quantity: <span class="quantity-label">${cartItem.quantity}</span>
       </span>
       <span class="update-quantity-link link-primary">
         Update
       </span>
-      <span class="delete-quantity-link link-primary js-delete-link" data-product-id="${matchingProduct.id}">
+      <span class="delete-quantity-link link-primary js-delete-link 
+      js-delete-link${matchingProduct.id}" data-product-id="${matchingProduct.id}">
         Delete
       </span>
     </div>
@@ -66,7 +71,6 @@ const dateString = deliveryDate.format('dddd, MMMM D');
         Choose a delivery option:
       </div>
       ${deliveryOptionsHTML(matchingProduct, cartItem)}
-
         </div>
       </div>
     </div>
@@ -146,6 +150,5 @@ const dateString = deliveryDate.format('dddd, MMMM D');
     }
 
 
-    renderOrderSummary();
 
 

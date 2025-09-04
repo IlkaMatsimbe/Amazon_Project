@@ -4,6 +4,8 @@ CTRL + TAB - move o codigo a esquerda
 
 TAB - move o codigo a direita
 
+CTRL + Z - coloca o codigo em comentario
+
 
 JavaScript
 * Salva os dados
@@ -66,5 +68,7 @@ Em Jasmine spec = test
 Em Jasmine temos o describe ele cria um grupo de specs
 Mocks - cria uma versao falsa daquilo que queremos retornar
 
-17:00:28
+Hooks - corre algum codigo ou funcao antes de realizar um teste
+
+17:30:00
 

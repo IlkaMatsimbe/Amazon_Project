@@ -22,7 +22,6 @@ cart = [{
 
 }
 }
-
  
   
 // Isso é útil para manter o carrinho de compras mesmo após o usuário fechar o navegador, 
@@ -48,6 +47,7 @@ export function addToCart(productId) {
       cart.push({
         productId: productId,
         quantity: 1,
+
         deliveryOptionId: '1'
       });
     }

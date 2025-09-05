@@ -66,9 +66,19 @@ ERROS
 Em Jasmine spec = test
 
 Em Jasmine temos o describe ele cria um grupo de specs
-Mocks - cria uma versao falsa daquilo que queremos retornar
-
+Mocks - e um metodo que cria uma versao falsa daquilo que queremos retornar
+SpyOn - e um metodo 
 Hooks - corre algum codigo ou funcao antes de realizar um teste
 
-17:30:00
+
+POO - Programacao Orientada a Objectos
+Representa o mundo real
+* Para mover uma variavel dentro de um objecto, converte-se dentro de uma propriedade e uma variavel;
+* Funcao dentro de um objecto, chama-se Metodo;
+* o recurso This da nos o objecto exterior que contem em uma funcao;
+* POO cria multiplos objectos;
+* Para conversao de nomes usa-se PascalCase para criar ou gerar objects
+
+
+18:00:00
 

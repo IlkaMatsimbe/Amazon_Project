@@ -1,5 +1,5 @@
 //a variavel cart pode ser usada fora porque ela é exportada.
-export let cart = JSON.parse(localStorage.getItem('cart'));
+export let cart ;
 
 
 loadFromStorage();

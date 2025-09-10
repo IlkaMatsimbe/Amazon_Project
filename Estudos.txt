@@ -78,6 +78,10 @@ Representa o mundo real
 * o recurso This da nos o objecto exterior que contem em uma funcao;
 * POO cria multiplos objectos;
 * Para conversao de nomes usa-se PascalCase para criar ou gerar objects
+* As classes geram os objectos, tornando-os faceis de criar;
+* Cada objecto que geramos de uma class chama-se Instancia da class;
+* As classes sao compostas por construtor: que corre configuracoes do codigo,
+   depois de criar um objecto
 
 
 18:00:00

@@ -46,14 +46,17 @@ ESM (EcmaScript Module) Version - e uma versao da biblioteca que trabalha
 
  Default Export - e outra maneira de esportar coisa atraves de um ficheiro
 
-
  shorthand property - 
+
+
 
  Model - View - Controller (MVC) - E uma tecnica para atualizar os dados e regenerar todo o HTML.
  O MVC em vez de atualizar a pagina directamente com o DOM, atualizamos nossos dados e entao regeneramos todo HTML.
  Model: salva e faz a gestao dos dados;
  Views: pega os dados e mostra na pagina; (gerar o HTML)
  Controller: percorre o codigo quando nos interagimos com a pagina. (torna interativo)
+
+
 
 
 ERROS
@@ -71,6 +74,7 @@ SpyOn - e um metodo
 Hooks - corre algum codigo ou funcao antes de realizar um teste
 
 
+
 POO - Programacao Orientada a Objectos
 Representa o mundo real
 * Para mover uma variavel dentro de um objecto, converte-se dentro de uma propriedade e uma variavel;
@@ -81,7 +85,12 @@ Representa o mundo real
 * As classes geram os objectos, tornando-os faceis de criar;
 * Cada objecto que geramos de uma class chama-se Instancia da class;
 * As classes sao compostas por construtor: que corre configuracoes do codigo,
-   depois de criar um objecto
+   depois de criar um objecto;
+
+Propriedades Privadas e Metodos em POO
+* Propriedade Privada: means that the propriedade so pode apenas ser acessado dentro da class;
+* field = property
+
 
 
 18:00:00

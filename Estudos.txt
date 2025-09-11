@@ -91,7 +91,9 @@ Propriedades Privadas e Metodos em POO
 * Propriedade Privada: means that the propriedade so pode apenas ser acessado dentro da class;
 * field = property
 
+* O map em POO e basicamente colocar cada valor dentro de um array
 
 
-18:00:00
+
+18:40:00
 

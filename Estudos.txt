@@ -93,7 +93,12 @@ Propriedades Privadas e Metodos em POO
 
 * O map em POO e basicamente colocar cada valor dentro de um array
 
+Heranca - reusa o codigo entre as classes, por exemplo: 'class Clothing extends Product {}'
+*     super(productDetails); //chama ou liga o constructor da class pai (Product)
+
+Polimorfismo - podemos usar um metodo sem saber exatamente a que class pertence. 
 
 
-18:40:00
+
+19:13:00
 

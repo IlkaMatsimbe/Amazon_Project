@@ -63,12 +63,44 @@ class Clothing extends Product {
     Size chart
     </a>
     `;
-
   }
-
 }
 
 
+/*
+const date = new Date();
+console.log(date);
+console.log(date.toLocaleTimeString());
+*/
+
+/*
+console.log(this);
+
+const object2 = {
+  a: 10,
+  b: this.a
+};
+*/
+
+
+
+/*
+function logThis() {
+  console.log(this);
+}
+logThis();
+logThis.call('hello');
+
+
+
+this // aponta para um objecto externo, pode ser usado em qualquer lugar do codigo
+const object3 = {
+  method: () => {
+    console.log(this);
+  }
+};
+object3.method();
+*/
 
 export const products = [
   {

@@ -98,6 +98,12 @@ Heranca - reusa o codigo entre as classes, por exemplo: 'class Clothing extends 
 
 Polimorfismo - podemos usar um metodo sem saber exatamente a que class pertence. 
 
+* built in class - por exemplo: new date() = gera um objecto que representa data atuais
+* this - aponta para um objecto externo, pode ser usado em qualquer lugar do codigo;
+       - O Arrow Functions nao altera o valor do this. 
+       - O this dentro de um metodo aponta para o metodo;
+       - This numa funcao = undefined;
+
 
 
 19:13:00

@@ -105,6 +105,16 @@ Polimorfismo - podemos usar um metodo sem saber exatamente a que class pertence.
        - This numa funcao = undefined;
 
 
+ Backend
+ * message = request  
 
-19:13:00
+GET: pega informacao do backend
+POST:
+PUT:
+DELETE:    
+
+* JSON.parse() - converte o backend dentro do Object JavaScript
+
+
+20:02:30
 

@@ -74,7 +74,6 @@ class Cart {
   }
 
 
-
   updateDeliveryOption(productId, deliveryOptionId) {
     let matchingItem;
 
@@ -89,8 +88,6 @@ class Cart {
     this.saveToStorage();
   }
 }
-
-
 
 
 const cart = new Cart('cart-oop');

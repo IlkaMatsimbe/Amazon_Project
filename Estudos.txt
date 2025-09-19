@@ -114,7 +114,8 @@ PUT:
 DELETE:    
 
 * JSON.parse() - converte o backend dentro do Object JavaScript
+* send() - e assincrono, isso signififca que ele pode enviar uma requisicao, e nao esperar a resposta.
+* callback - 
 
-
-20:02:30
+20:16:30
 

@@ -1,4 +1,4 @@
-class Car {
+/*class Car {
   brand;
   model;
   speed = 0;
@@ -41,7 +41,7 @@ class Car {
     if (this.speed < 0) {
       this.speed = 0;
     }
-  }*/
+  }
 }
 
 const car1 = new Car({
@@ -63,4 +63,4 @@ car1.displayInfo();
 
 //car2.go();
 //car2.brake();
-car2.displayInfo();
+car2.displayInfo();*/

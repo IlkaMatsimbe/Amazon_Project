@@ -107,6 +107,7 @@ Polimorfismo - podemos usar um metodo sem saber exatamente a que class pertence.
        - This numa funcao = undefined;
 
 
+
  Backend
  * message = request  
 
@@ -117,7 +118,9 @@ DELETE:
 
 * JSON.parse() - converte o backend dentro do Object JavaScript
 * send() - e assincrono, isso signififca que ele pode enviar uma requisicao, e nao esperar a resposta.
-* callback - 
+* callback -
+* Promises - uma forma boa de lidar com codigo assincrono e e similar ao done() e ao resolve() que tambem e similar ao done()
+* Promise.all() - corre multiplos promises ao mesmo tempo
 
 20:16:30
 

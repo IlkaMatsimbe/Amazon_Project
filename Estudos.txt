@@ -66,12 +66,14 @@ ERROS
  Test Framework
  E uma biblioteca externa que ajuda nos a escrever testes facilmente.
  Os test frameworks sao: Jasmine
-Em Jasmine spec = test
 
+JASMINE
+Em Jasmine spec = test
 Em Jasmine temos o describe ele cria um grupo de specs
 Mocks - e um metodo que cria uma versao falsa daquilo que queremos retornar
 SpyOn - e um metodo 
 Hooks - corre algum codigo ou funcao antes de realizar um teste
+done() - este parametro faz com que o paramentro beforeAll() nao va automaticamente para o proximo passo.
 
 
 

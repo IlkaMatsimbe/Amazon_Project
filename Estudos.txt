@@ -121,6 +121,7 @@ DELETE:
 * callback -
 * Promises - uma forma boa de lidar com codigo assincrono e e similar ao done() e ao resolve() que tambem e similar ao done()
 * Promise.all() - corre multiplos promises ao mesmo tempo
+* Fetch() - uma boa forma de fazer HTTP Requests
 
 20:16:30
 

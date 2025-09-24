@@ -123,5 +123,11 @@ DELETE:
 * Promise.all() - corre multiplos promises ao mesmo tempo
 * Fetch() - uma boa forma de fazer HTTP Requests
 
+
+Async Await - uma maneira de lidar com codigo assincrono
+* async function () - faz a funcao retornar um promise.
+* await - faz esperar por um promise para finalizar antes de ir para a proxima linha. So 
+pode ser usado dentro de um async function
+
 20:16:30
 

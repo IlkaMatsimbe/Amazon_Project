@@ -129,5 +129,11 @@ Async Await - uma maneira de lidar com codigo assincrono
 * await - faz esperar por um promise para finalizar antes de ir para a proxima linha. So 
 pode ser usado dentro de um async function
 
-20:16:30
+Error
+Error Handling - ver como funciona na aba de produtos
+* O try ou catch - podemos usar em um codigo normal ou um codigo assincrono
+* throw - outra maneira de criar erro
+* reject - e uma funcao que cria o erro no futuro
+
+21:30:30
 

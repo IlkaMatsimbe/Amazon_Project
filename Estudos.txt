@@ -135,6 +135,7 @@ Error Handling - ver como funciona na aba de produtos
 * O try ou catch - podemos usar em um codigo normal ou um codigo assincrono
 * throw - outra maneira de criar erro
 * reject - e uma funcao que cria o erro no futuro
+* URL parameter - cria se assim: http://127.0.0.1:5500/orders.html?orderId=123  (orderId=propriedade e 123=valor)
 
 21:30:30
 

@@ -30,7 +30,7 @@ Modulos
 mesmo nome, nao  ira sofrer nenhum conflito de nomenclatura.
 Existem 3 passos pra adicionar: 
 - Add o type="module" src="./scripts/amazon.js"></script>
-- Exportar
+- Exportar: quando se exporta, depois se importa no fickeiro que pretende usar por exemplo a funncao exportada
 - Importar
 
 
@@ -111,10 +111,11 @@ Polimorfismo - podemos usar um metodo sem saber exatamente a que class pertence.
  Backend
  * message = request  
 
+4 tipos de Requisicoes
 GET: pega informacao do backend
-POST:
-PUT:
-DELETE:    
+POST: quando queremos que o backend crie alguma coisa
+PUT: serve pra atualizar
+DELETE: deletar 
 
 * JSON.parse() - converte o backend dentro do Object JavaScript
 * send() - e assincrono, isso signififca que ele pode enviar uma requisicao, e nao esperar a resposta.
